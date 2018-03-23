@@ -1,0 +1,70 @@
+p {
+	font-family:Georgia;
+	color:white;
+	margin-top:6%;
+	font-size:20px
+}
+
+#head {
+	margin-left:46%
+}
+
+form {
+	background-color:9fbbc7;
+	width:80%;
+	margin-left:5%;
+	padding-top:60px;
+	padding-bottom:40px;
+	padding-left:150px;
+	color:#30415d
+}
+
+table {
+	font-family:Georgia;
+	margin-left:290px
+}
+
+th,td {
+	font-family:Georgia;
+	color:#30415d
+}
+
+input {
+	font-family:Georgia;
+	margin:15px 0px 15px 15px;
+	color:#30415d
+}
+
+.interestItem {
+	margin-left:15px
+}
+
+#signUpB1 {
+	margin-top:40px;
+	margin-left:300px
+}
+
+#signUpB2 {
+	margin-top:40px;
+	margin-left:50px
+}
+
+#fem {
+	margin-left:83px
+}
+
+#automob {
+	margin-left:13px
+}
+
+#ln{
+	margin-left:19px
+}
+
+#un{
+	margin-left:20px
+}
+
+#pw{
+	margin-left:25px
+}

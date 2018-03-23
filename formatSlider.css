@@ -1,0 +1,80 @@
+#myNewsTicker .newsTicker {
+	display: none;
+}
+			
+#myNewsTicker .newsTicker.active {
+	display: block;
+}
+			
+#myNewsTicker {
+	margin-top:40px;
+	padding: 10px 25px;
+	color: rgb(82,29,13);
+	font-weight: bold;
+	font-family: calibri;
+	display: inline-block;
+	width:800px; height:400px;
+	margin-left:25px ; padding:0;
+}
+
+#latestBox {
+	margin-top:40px;
+	margin-right:20px
+}
+
+span#next {
+	position: relative;
+	cursor: pointer;
+	padding: 5px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	width: 35px;
+	display: inline-block;
+	text-align: center;
+	height: 35px;
+	line-height: 20px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	left: -10px;
+	top: -180px;
+}
+
+span#prev {
+	position: relative;
+	cursor: pointer;
+	padding: 5px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	width: 35px;
+	display: inline-block;
+	text-align: center;
+	height: 35px;
+	line-height: 20px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	right: -10px;
+	top: -180px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.tag {
+   float: left;
+   position: absolute;
+   left: 100px;
+   top: 500px;
+   z-index: 1000;
+   background-color: #000000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 25px;
+   width:750px
+}

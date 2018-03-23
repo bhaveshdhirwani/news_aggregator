@@ -1,0 +1,292 @@
+body {
+	background-color:#30415d
+}
+
+/*homepage styles*/
+
+#one {
+	width:800px; height:400px;
+	background-color:d91b43;
+	margin:25px 280px; padding:0;
+	overflow:hidden;
+	position:relative
+}
+
+#innerOne {
+	width:800px;
+	height:400px;
+	position:absolute;
+	background-color:#d97d91;
+	opacity:0.7;
+	animation:slide 2s forwards infinite;
+	animation-duration:10s;
+}
+
+#innerOne:hover {
+	animation-play-state:paused
+}
+
+#two {
+	width:500px; height:300px;
+	background-color:c8c8c8;	
+	margin:25px 55px; padding:0;
+	overflow:hidden;
+	position:relative
+}
+
+#innerTwo {
+	width:500px;
+	height:300px;
+	position:absolute;
+	background-color:#dddddd;
+	opacity:0.7;
+	animation:slide 2s forwards infinite;
+	animation-duration:10s;
+	animation-delay:3s
+}
+
+#innerTwo:hover {
+	animation-play-state:paused
+}
+
+#three {
+	width:600px; height:200px;
+	background-color:d91b43;
+	margin-top:25px;
+    margin-bottom:0;	
+	margin-left:55px;
+	margin-right:55px;	
+	padding:0;
+	overflow:hidden;
+	position:relative
+}
+
+
+#innerThree {
+	width:600px;
+	height:200px;
+	position:absolute;
+	background-color:#d97d91;
+	opacity:0.7;
+	animation:slide 2s forwards infinite;
+	animation-duration:10s;
+	animation-delay:5s
+}
+
+#innerThree:hover {
+	animation-play-state:paused
+}
+
+#four {
+	width:600px; height:200px;
+	background-color:d91b43;
+	margin:25px 55px; padding:0;
+	overflow:hidden;
+	position:relative
+}
+
+#innerFour {
+	width:600px;
+	height:200px;
+	position:absolute;
+	background-color:#d97d91;
+	opacity:0.7;
+	animation:slide 2s forwards infinite;
+	animation-duration:10s;
+	animation-delay:7s
+}
+
+#innerFour:hover {
+	animation-play-state:paused
+}
+
+#five {
+	width:500px; height:300px;
+	background-color:c8c8c8;
+	margin-left:55px; 
+	margin-right:55px;
+	margin-top:0;
+	margin-bottom:25px;
+	padding:0;
+	overflow:hidden;
+	position:relative
+}
+
+#innerFive {
+	width:500px;
+	height:300px;
+	position:absolute;
+	background-color:#dddddd;
+	opacity:0.7;
+	animation:slide 2s forwards infinite;
+	animation-duration:10s;
+	animation-delay:6s
+}
+
+#innerFive:hover {
+	animation-play-state:paused
+}
+
+@keyframes slide{
+0%{top:100%;}	
+50%{top:0px;}
+100%{top:100%;}
+}
+
+ul {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+	overflow:hidden
+}
+
+.sliders { float:left }
+
+.menuAnc {
+	display:block;
+	color:white;
+	padding: 24px 30px;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:17
+}
+
+.tag {
+	width:
+}
+
+/*contact us styles*/
+
+#left {
+	width:512px;
+	margin-left:200px;
+	margin-top:80px
+}
+
+#right {
+	position:relative;
+	left:750px;
+	bottom:200px;
+	margin-top:-305px
+	
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+#contact-list {
+	list-style-type:none;
+}
+
+.contact {
+	color:white;
+	padding: 24px 30px;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:17
+}
+
+#contactSub {
+	margin-left:50px;
+}
+
+#sendMessage {
+	color:white;
+	padding:30px;
+	margin:10px;
+	font-family:Georgia;
+	font-size:17
+}
+
+#senderMail {
+	margin:10px;
+	width:170px;
+	height:26px
+}
+
+#senderName {
+	margin:10px;
+	width:170px;
+	height:26px
+}
+
+#message {
+	margin:1px 10px 30px 10px;
+	width:230px
+}
+
+/*Sign in and sign up styles*/
+
+#loginForm {
+	margin-left:550px;
+	margin-top:80px;
+	margin-bottom:80px;
+	padding:20px
+}
+
+#loginButton {
+	margin-left:40px
+}
+
+.loginText {
+	color:white;
+	font-family:Georgia;
+	font-size:17
+}
+
+.loginFields {
+	color:30415d;
+	font-family:Georgia;
+	font-size:17	
+}
+
+#registration {
+	color:30415d;
+	font-family:Georgia;
+	font-size:17
+}
+
+/*user account*/
+
+#userAcc {
+	color:white;
+	padding: 24px 30px;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:17;
+	margin-left:500px
+}
+
+/*news article*/
+
+#newsArt > p {
+	color:white;
+	padding:20px;
+	word-spacing:10px;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:17;
+	margin:0px 250px 0px 250px
+}
+
+#commText {
+	color:white;
+	word-spacing:10px;
+	text-decoration:none;
+	font-family:Georgia;
+	font-size:17;
+	margin-left:250px
+}
